@@ -9,16 +9,19 @@
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## 🚀 Features
-- Features to be added here
+- Fixed static sidebar navigation
+- Individual pages for each recipe
+- Pure CSS filtering by meal type (e.g. Breakfast, Lunch, etc.)
+
 
 
 ## 🔨 To-Do
-- [ ] Create a page for each recipe
+- [ ] Finalize CSS styling
 
 
 ## ✔ Done
 - [x] Create skeleton of site
- 
+- [x] Create a page for each recipe
 
 ## 🕒 History of website
 ![V1 Screenshot](../odin-recipes/img/TastyByte-v1.png)
