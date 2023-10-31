@@ -21,7 +21,7 @@
  
 
 ## 🕒 History of website
-- Placeholder
+![V1 Screenshot](../odin-recipes/img/TastyByte-v1.png)
 
 ## Acknowledgements
 - The Odin Project/Foundations Course/Project: Recipes
