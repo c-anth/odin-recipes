@@ -1,4 +1,4 @@
-# odin-recipes
+# TastyByte (odin-recipes)
 :spaghetti: TastyByte is a recipe website prototype built with HTML and CSS only.
 
 ## Demo
