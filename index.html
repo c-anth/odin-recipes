@@ -7,14 +7,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header"> 
+        <div class="topnav">
         <!-- Site Logo -->
         <div class="logo"><a href="index.html">TastyByte</a></div>
-            
-        <div class="topnav">
-          <a class="active" href="index.html">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+            <div class="filtersattop">
+                <ol class="filters">
+                    <li>
+                        <label for="All">Show All</label>
+                    </li>
+                    <li>
+                        <label for="Breakfast">Breakfast</label>
+                    </li>
+                    <li>
+                        <label for="Lunch">Lunch</label>
+                    </li>
+                    <li>
+                        <label for="Dinner">Dinner</label>
+                    </li>
+                    <li>
+                        <label for="Desserts">Desserts</label>
+                    </li>
+                    <li>
+                        <label for="Appetizers">Appetizers</label>
+                    </li>
+                </ol>
+            </div>
         </div>
     </div>
     <!-- Container for Filtering the Recipes (Note: Container must include the recipe items) -->
@@ -25,28 +43,7 @@
             <input type="radio" id="Dinner" name="categories" value="Dinner">
             <input type="radio" id="Desserts" name="categories" value="Desserts">
             <input type="radio" id="Appetizers" name="categories" value="Appetizers">
-
-            <ol class="filters">
-                <li>
-                    <label for="All">Show All</label>
-                </li>
-                <li>
-                    <label for="Breakfast">Breakfast</label>
-                </li>
-                <li>
-                    <label for="Lunch">Lunch</label>
-                </li>
-                <li>
-                    <label for="Dinner">Dinner</label>
-                </li>
-                <li>
-                    <label for="Desserts">Desserts</label>
-                </li>
-                <li>
-                    <label for="Appetizers">Appetizers</label>
-                </li>
-            </ol>
-        
+       
     
         <!-- Main Page Content -->
         <h2 class="page-title">Recipes</h2>
@@ -150,6 +147,26 @@
                            </ol>
                            <h2 class="post-title">
                                <a href="recipes/baked-penne.html">Baked Penne with Roasted Vegetables</a>
+                           </h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </li>
+
+            <li class="post" data-category="Appetizers">
+                <article>
+                    <figure>
+                        <a href="recipes/deviled-eggs.html">
+                           <img src="img/deviled-eggs.jpg" alt="Deviled eggs with parsley on top">
+                        </a>
+                        <figcaption>
+                           <ol class="post-categories">
+                               <li>
+                                   <a href="">Appetizers</a>
+                               </li>
+                           </ol>
+                           <h2 class="post-title">
+                               <a href="recipes/deviled-eggs.html">Deviled Eggs</a>
                            </h2>
                         </figcaption>
                     </figure>

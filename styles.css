@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #FFE1E1;
+    /* background-color: #FFE1E1; */
     height: auto;
 }
 .logo {
@@ -15,16 +15,30 @@
 }
    
 .topnav {
-    overflow: hidden;
+    /* overflow: hidden;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    align-items: center;
+    align-items: center; */
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 268px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #FFE1E1; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
 }
 
 /* Spaces out the Home, Contact and About Nav links */
-.topnav a {
+/* .topnav a {
     padding: 10px;
+} */
+
+.filtersattop {
+    background-color: #FFE1E1;
+    margin-top: 20px;
 }
 
  /* Hide the radio buttons */
@@ -56,15 +70,16 @@ body {
 }
   
 .container {
+    margin-left: 268px; /* Same as the width of the sidebar */
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;  
+    /* margin: 0 auto; */
+    padding-left: 2rem;
+    padding-right: 2rem;  
 }
-
 
 /* Style for the filters */
 .filters {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 2rem;
   }
   
@@ -78,7 +93,7 @@ body {
     font-size: 24px;
     font-family: Roboto;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 30px;
     letter-spacing: 2px;
     padding: 0.5rem 0.5rem;
   }
@@ -182,6 +197,7 @@ body {
 [value="Desserts"]:checked ~ .filters [for="Desserts"],
 [value="Appetizers"]:checked ~ .filters [for="Appetizers"] {
   color: #491200;
+  background: green;
 }
 
 .recipe-page-container{
