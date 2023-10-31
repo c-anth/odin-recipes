@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyByte</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="header">
+        <!-- Site Logo -->
+        <div class="logo"><a href="/index.html">TastyByte</a></div>
+            
+        <div class="topnav">
+          <a class="active" href="/index.html">Home</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+    </div>
+    <!-- Container for Filtering the Recipes (Note: Container must include the recipe items) -->
+    <div class="container">
+            <input type="radio" id="All" name="categories" value="All" checked>
+            <input type="radio" id="Breakfast" name="categories" value="Breakfast">
+            <input type="radio" id="Lunch" name="categories" value="Lunch">
+            <input type="radio" id="Dinner" name="categories" value="Dinner">
+            <input type="radio" id="Desserts" name="categories" value="Desserts">
+            <input type="radio" id="Appetizers" name="categories" value="Appetizers">
+
+            <ol class="filters">
+                <li>
+                    <label for="All">Show All</label>
+                </li>
+                <li>
+                    <label for="Breakfast">Breakfast</label>
+                </li>
+                <li>
+                    <label for="Lunch">Lunch</label>
+                </li>
+                <li>
+                    <label for="Dinner">Dinner</label>
+                </li>
+                <li>
+                    <label for="Desserts">Desserts</label>
+                </li>
+                <li>
+                    <label for="Appetizers">Appetizers</label>
+                </li>
+            </ol>
+        
+    
+        <!-- Main Page Content -->
+        <h2 class="page-title">Recipes</h2>
+        <p class="page-tagline">Delicious recipes that are <em>Tasty</em> with every <em>Byte!</em></p>
+        
+        <ol class="recipes">
+            <li class="post" data-category="Lunch Dinner">
+              <article>
+                <figure>
+                  <a href="/recipes/greek-salad.html">
+                    <img src="/img/greek-salad.png" alt="picture of a greek salad">
+                  </a>
+                  <figcaption>
+                    <ol class="post-categories">
+                      <li>
+                        <a href="">Lunch</a>
+                      </li>
+                      <li>
+                        <a href="">Dinner</a>
+                      </li>
+                    </ol>
+                    <h2 class="post-title">
+                      <a href="/recipes/greek-salad.html">Greek Salad</a>
+                    </h2>
+                  </figcaption>
+                </figure>
+              </article>
+            </li>
+
+            <li class="post" data-category="Dinner">
+                <article>
+                  <figure>
+                    <a href="#">
+                      <img src="/img/wasabi-salmon-with-miso-sesame-sauce.webp" alt="Wasabi Salmon with Miso-Sesame Sauce">
+                    </a>
+                    <figcaption>
+                      <ol class="post-categories">
+                        <li>
+                          <a href="">Dinner</a>
+                        </li>
+                      </ol>
+                      <h2 class="post-title">
+                        <a href="#">Wasabi Salmon with Miso-Sesame Sauce</a>
+                      </h2>
+                    </figcaption>
+                  </figure>
+                </article>
+              </li>
+
+              <li class="post" data-category="Breakfast">
+                <article>
+                    <figure>
+                        <a href="/recipes/scrambled-eggs.html">
+                           <img src="/img/scrambled-eggs.jpg" alt="Scrambled Eggs with Toast">
+                        </a>
+                        <figcaption>
+                           <ol class="post-categories">
+                               <li>
+                                   <a href="">Breakfast</a>
+                               </li>
+                           </ol>
+                           <h2 class="post-title">
+                               <a href="/recipes/scrambled-eggs.html">Scrambled Eggs with Toast</a>
+                           </h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </li>
+
+            <li class="post" data-category="Desserts">
+                <article>
+                    <figure>
+                        <a href="/recipes/chai-sugar-cookies.html">
+                           <img src="/img/chai-sugar-cookies.webp" alt="Chai sugar cookies closeup">
+                        </a>
+                        <figcaption>
+                           <ol class="post-categories">
+                               <li>
+                                   <a href="">Desserts</a>
+                               </li>
+                           </ol>
+                           <h2 class="post-title">
+                               <a href="/recipes/chai-sugar-cookies.html">Chai Sugar Cookies</a>
+                           </h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </li>
+
+            <li class="post" data-category="Dinner">
+                <article>
+                    <figure>
+                        <a href="/recipes/baked-penne.html">
+                           <img src="/img/baked-penne-with-roasted-vegetables.webp" alt="Baked Penne with Roasted Vegetables">
+                        </a>
+                        <figcaption>
+                           <ol class="post-categories">
+                               <li>
+                                   <a href="">Dinner</a>
+                               </li>
+                           </ol>
+                           <h2 class="post-title">
+                               <a href="/recipes/baked-penne.html">Baked Penne with Roasted Vegetables</a>
+                           </h2>
+                        </figcaption>
+                    </figure>
+                </article>
+            </li>
+        </ol>
+
+    </div>
+</body>
+</html>
