@@ -7,17 +7,44 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Nav bar and logo -->
-    <div class="header">
+    <div class="header"> 
+        <div class="topnav">
         <!-- Site Logo -->
         <div class="logo"><a href="../index.html">TastyByte</a></div>
-            
-        <div class="topnav">
-          <a class="active" href="../index.html">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+            <div class="filtersattop">
+                <ol class="filters">
+                    <li>
+                        <label for="All">Show All</label>
+                    </li>
+                    <li>
+                        <label for="Breakfast">Breakfast</label>
+                    </li>
+                    <li>
+                        <label for="Lunch">Lunch</label>
+                    </li>
+                    <li>
+                        <label for="Dinner">Dinner</label>
+                    </li>
+                    <li>
+                        <label for="Desserts">Desserts</label>
+                    </li>
+                    <li>
+                        <label for="Appetizers">Appetizers</label>
+                    </li>
+                </ol>
+            </div>
         </div>
     </div>
+<!-- Container for Filtering the Recipes (Note: Container must include the recipe items) -->
+<div class="container">
+        <input type="radio" id="All" name="categories" value="All" checked>
+        <input type="radio" id="Breakfast" name="categories" value="Breakfast">
+        <input type="radio" id="Lunch" name="categories" value="Lunch">
+        <input type="radio" id="Dinner" name="categories" value="Dinner">
+        <input type="radio" id="Desserts" name="categories" value="Desserts">
+        <input type="radio" id="Appetizers" name="categories" value="Appetizers">
+   
+
     <!-- Recipe Container-->
     <div class="recipe-page-container">
       <h2 class="page-title">Baked Penne with Roasted Vegetables</h2>
