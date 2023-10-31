@@ -39,11 +39,11 @@ img {
     height: auto;
     border-radius: 1rem;
 }
-  
-ol {
+
+ol.filters, ol.recipes, ol.post-categories {
     list-style: none;
 }
-  
+
 a {
     text-decoration: none;
     color: inherit;
@@ -182,4 +182,9 @@ body {
 [value="Desserts"]:checked ~ .filters [for="Desserts"],
 [value="Appetizers"]:checked ~ .filters [for="Appetizers"] {
   color: #491200;
+}
+
+.recipe-page-container{
+    margin-left: 40px;
+    margin-right: 40px;
 }
