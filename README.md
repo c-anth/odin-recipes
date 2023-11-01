@@ -4,10 +4,6 @@
 ## Demo
 [▶ Live Preview](https://c-anth.github.io/odin-recipes/)
 
-## Screenshots
-
-![App Screenshot](https://c-anth.github.io/odin-recipes/img/TastyByte-v2)
-
 ## 🚀 Features
 - Fixed static sidebar navigation
 - Individual pages for each recipe
@@ -24,7 +20,8 @@
 - [x] Create a page for each recipe
 
 ## 🕒 History of website
-![V1 Screenshot](../img/TastyByte-v1.png)
+![App Screenshot](/img/TastyByte-v2.png?raw=true "Current Version")
+![V1 Screenshot](/img/TastyByte-v1.png?raw=true "Original Concept")
 
 ## Acknowledgements
 - The Odin Project/Foundations Course/Project: Recipes
