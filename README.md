@@ -6,7 +6,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://c-anth.github.io/odin-recipes/img/TastyByte-v2)
 
 ## 🚀 Features
 - Fixed static sidebar navigation
@@ -24,7 +24,7 @@
 - [x] Create a page for each recipe
 
 ## 🕒 History of website
-![V1 Screenshot](../odin-recipes/img/TastyByte-v1.png)
+![V1 Screenshot](../img/TastyByte-v1.png)
 
 ## Acknowledgements
 - The Odin Project/Foundations Course/Project: Recipes
