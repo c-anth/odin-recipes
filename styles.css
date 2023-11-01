@@ -83,7 +83,7 @@ body {
   }
   
 .filters * {
-    display: inline-block;
+    /* display: inline-block; */
     background: none;
     border: none;
     outline: none;
